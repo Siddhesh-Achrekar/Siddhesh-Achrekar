@@ -2,16 +2,23 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # Runs daily at midnight UTC
-  workflow_dispatch:        # Allows manual trigger
+    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write          # Required to push to the output branch
+  contents: write
+  actions: write       # ← Add this; required for some internal action operations
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true   # ← Silences the Node.js 20 warning
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4    # ← Add explicit checkout step
+
       - name: Generate Snake
         uses: Platane/snk@v3
         with:
@@ -26,3 +33,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: output
+          force_orphan: true         # ← Cleanly recreates the branch each run
