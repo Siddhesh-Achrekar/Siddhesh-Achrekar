@@ -84,10 +84,7 @@
 <h4>🗄️ Databases</h4>
 <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark&perline=4" alt="Databases"/>
 <br/><br/>
-<a href="https://www.pinecone.io/">
-  <img src="https://cdn.brandfetch.io/pinecone.io/fallback/lettermark/theme/dark/h/256/w/256/icon?t=1740991579" alt="Pinecone" width="48" height="48" style="border-radius:8px;"/>
-</a>
-<img src="https://img.shields.io/badge/Pinecone-14B8A6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw0IDdWMTdMMTIgMjJMMjAgMTdWN0wxMiAyWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=&logoColor=white" alt="Pinecone Badge"/>
+<img src="https://img.shields.io/badge/Pinecone-1C1C1C?style=for-the-badge&logo=pinecone&logoColor=white" height="45" alt="Pinecone"/>
 
 <br/><br/>
 
