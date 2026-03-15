@@ -11,7 +11,7 @@
 
 <!-- ═══════════════════  TYPING SVG  ═══════════════════ -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=A960FF&center=true&vCenter=true&multiline=false&repeat=true&random=false&width=650&height=60&lines=%F0%9F%A4%96+AI+Engineer;%F0%9F%93%8A+Data+Scientist;%E2%9A%99%EF%B8%8F+System+Programming+Enthusiast;%F0%9F%9A%80+Full-Stack+Developer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3500&pause=800&color=A960FF&center=true&vCenter=true&multiline=false&repeat=true&random=false&width=650&height=60&lines=%F0%9F%A4%96+AI+%2F+ML+Enthusiast;%F0%9F%93%8A+Data+Scientist" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -84,7 +84,10 @@
 <h4>🗄️ Databases</h4>
 <img src="https://skillicons.dev/icons?i=mysql,mongodb&theme=dark&perline=4" alt="Databases"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white" alt="Pinecone"/>
+<a href="https://www.pinecone.io/">
+  <img src="https://cdn.brandfetch.io/pinecone.io/fallback/lettermark/theme/dark/h/256/w/256/icon?t=1740991579" alt="Pinecone" width="48" height="48" style="border-radius:8px;"/>
+</a>
+<img src="https://img.shields.io/badge/Pinecone-14B8A6?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIgMkw0IDdWMTdMMTIgMjJMMjAgMTdWN0wxMiAyWiIgZmlsbD0id2hpdGUiLz48L3N2Zz4=&logoColor=white" alt="Pinecone Badge"/>
 
 <br/><br/>
 
@@ -150,12 +153,11 @@
 <br/><br/>
 
 <!-- ═══════════  CONTRIBUTION SNAKE  ═══════════ -->
-<!-- NOTE: To enable the snake animation, set up the GitHub Action below in       -->
-<!-- your repo at .github/workflows/snake.yml — see instructions at the bottom.   -->
+<!-- NOTE: Push this repo & run the "Generate Snake" Action once to generate the SVGs. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Siddhesh-Achrekar/Siddhesh-Achrekar/blob/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/Siddhesh-Achrekar/Siddhesh-Achrekar/blob/output/github-contribution-grid-snake.svg" />
-  <img alt="GitHub Contribution Snake" src="https://github.com/Siddhesh-Achrekar/Siddhesh-Achrekar/blob/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Siddhesh-Achrekar/Siddhesh-Achrekar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Siddhesh-Achrekar/Siddhesh-Achrekar/output/github-contribution-grid-snake.svg" />
+  <img alt="GitHub Contribution Snake" src="https://raw.githubusercontent.com/Siddhesh-Achrekar/Siddhesh-Achrekar/output/github-contribution-grid-snake-dark.svg" width="100%" />
 </picture>
 
 </div>
